@@ -1,6 +1,6 @@
 .hero {
     background-color: #1f2937;
-    padding: 0 160px 100px 160px;
+    padding: 10px 160px 100px 160px;
     /* height: 500px; */
 }
 
@@ -44,6 +44,7 @@ a {
 .text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -60,8 +61,102 @@ a {
 
 button {
     color: #f9faf8;
+    font-weight: 800;
     background-color: #0657c2;
     border: 1px solid #0657c2;
     border-radius: 10px;
-    padding: 12px 24px;
+    padding: 8px 30px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin: 30px 200px 100px 200px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900; 
+    color: #1f2937;
+}
+
+.subtext {
+    display: flex;
+    gap: 24px;
+}
+
+.subtext-box p {
+    text-align: center;
+}
+
+.subtext img {
+    width: 220px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    margin: 120px 240px;
+}
+
+.quote-text p {
+    display: flex;
+    justify-content: right;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.contain {
+    display: flex;
+    margin: 100px 200px;
+    padding: 30px 100px;
+    background-color: #3882f6;
+    border-radius: 12px;
+}
+
+.sign h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign p {
+    font-size: 14px;
+    margin-top: -25px;
+}
+
+.sign h4, .sign p {
+    color: #f9faf8;
+}
+
+.sign-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.sign-button button {
+    background-color: #f9faf800;
+    border: 2px solid #f9faf8;
+    padding: 8px 32px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 75px;
+}
+
+footer {
+    color: #f9faf8;
 }
